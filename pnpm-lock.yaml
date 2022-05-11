@@ -4,7 +4,7 @@ specifiers:
   '@types/markdown-it': ^12.2.3
   '@types/node': ^16.9.1
   '@vue/repl': ^1.0.0
-  '@vue/theme': ^1.0.2
+  '@vue/theme': ^1.0.1
   chalk: ^4.1.2
   dynamics.js: ^1.1.5
   gray-matter: ^4.0.3

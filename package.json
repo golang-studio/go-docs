@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@vue/repl": "^1.0.0",
-    "@vue/theme": "git+git@github.com:golangstudio/theme.git",
+    "@vue/theme": "git+https://github.com/golangstudio/theme",
     "dynamics.js": "^1.1.5",
     "gsap": "^3.9.0",
     "vitepress": "^0.22.3",

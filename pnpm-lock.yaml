@@ -4,7 +4,7 @@ specifiers:
   '@types/markdown-it': ^12.2.3
   '@types/node': ^16.9.1
   '@vue/repl': ^1.0.0
-  '@vue/theme': git+https://github.com/golangstudio/theme
+  '@vue/theme': git+git@github.com:golang-studio/theme.git
   chalk: ^4.1.2
   dynamics.js: ^1.1.5
   gray-matter: ^4.0.3
@@ -19,7 +19,7 @@ specifiers:
 
 dependencies:
   '@vue/repl': 1.0.0_vue@3.2.33
-  '@vue/theme': github.com/golangstudio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f_vue@3.2.33
+  '@vue/theme': github.com/golang-studio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f_vue@3.2.33
   dynamics.js: 1.1.5
   gsap: 3.9.0
   vitepress: 0.22.3
@@ -1239,9 +1239,9 @@ packages:
       unified: 8.4.2
     dev: true
 
-  github.com/golangstudio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f_vue@3.2.33:
-    resolution: {commit: 0f82dacf43c5cba5a768f8127f0c9fc01848e81f, repo: git+ssh://git@github.com/golangstudio/theme.git, type: git}
-    id: github.com/golangstudio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f
+  github.com/golang-studio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f_vue@3.2.33:
+    resolution: {tarball: https://codeload.github.com/golang-studio/theme/tar.gz/0f82dacf43c5cba5a768f8127f0c9fc01848e81f}
+    id: github.com/golang-studio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f
     name: '@vue/theme'
     version: 1.0.1
     dependencies:

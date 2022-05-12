@@ -1,10 +1,10 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@types/markdown-it': ^12.2.3
   '@types/node': ^16.9.1
   '@vue/repl': ^1.0.0
-  '@vue/theme': ^1.0.1
+  '@vue/theme': git+https://github.com/golangstudio/theme
   chalk: ^4.1.2
   dynamics.js: ^1.1.5
   gray-matter: ^4.0.3
@@ -19,7 +19,7 @@ specifiers:
 
 dependencies:
   '@vue/repl': 1.0.0_vue@3.2.33
-  '@vue/theme': 1.0.2_vue@3.2.33
+  '@vue/theme': github.com/golangstudio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f_vue@3.2.33
   dynamics.js: 1.1.5
   gsap: 3.9.0
   vitepress: 0.22.3
@@ -330,24 +330,6 @@ packages:
 
   /@vue/shared/3.2.33:
     resolution: {integrity: sha512-UBc1Pg1T3yZ97vsA2ueER0F6GbJebLHYlEi4ou1H5YL4KWvMOOWwpYo9/QpWq93wxKG6Wo13IY74Hcn/f7c7Bg==}
-    dev: false
-
-  /@vue/theme/1.0.2_vue@3.2.33:
-    resolution: {integrity: sha512-jBALidvFMLgcR76UQ2foi4yD5gHn1YrigXJglZe3Rb0rm4KRVLxPeCe/CAfD42Wsm9xAfSNDUxRneQfbQpA1eg==}
-    dependencies:
-      '@docsearch/css': 3.0.0-alpha.41
-      '@docsearch/js': 3.0.0-alpha.41
-      '@vueuse/core': 7.4.0_vue@3.2.33
-      body-scroll-lock: 3.1.5
-      normalize.css: 8.0.1
-      shiki: 0.9.15
-    transitivePeerDependencies:
-      - '@algolia/client-search'
-      - '@types/react'
-      - '@vue/composition-api'
-      - react
-      - react-dom
-      - vue
     dev: false
 
   /@vueuse/core/7.4.0_vue@3.2.33:
@@ -1256,3 +1238,24 @@ packages:
       remark-parse: 7.0.2
       unified: 8.4.2
     dev: true
+
+  github.com/golangstudio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f_vue@3.2.33:
+    resolution: {commit: 0f82dacf43c5cba5a768f8127f0c9fc01848e81f, repo: git+ssh://git@github.com/golangstudio/theme.git, type: git}
+    id: github.com/golangstudio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f
+    name: '@vue/theme'
+    version: 1.0.1
+    dependencies:
+      '@docsearch/css': 3.0.0-alpha.41
+      '@docsearch/js': 3.0.0-alpha.41
+      '@vueuse/core': 7.4.0_vue@3.2.33
+      body-scroll-lock: 3.1.5
+      normalize.css: 8.0.1
+      shiki: 0.9.15
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - '@types/react'
+      - '@vue/composition-api'
+      - react
+      - react-dom
+      - vue
+    dev: false

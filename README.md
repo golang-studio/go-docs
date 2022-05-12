@@ -1,8 +1,8 @@
-# Vuejs.org 新版中文文档
+# Go 语言入门到精通文档
+
+**开源不易，麻烦给个 Star ★ 吧！您的支持，是我最大的动力！**
 
 这里是即将焕然一新的 [cn.vuejs.org](https://staging-cn.vuejs.org)。
-
-你也可以预览对应的英文原文文档 [https://staging.vuejs.org](https://staging.vuejs.org) 及其代码仓库 [vuejs/docs](https://github.com/vuejs/docs)。
 
 ## 如何在本地编辑和预览该网站
 
@@ -12,8 +12,6 @@
 pnpm i
 pnpm run dev
 ```
-
-This project requires Node.js to be `v14.0.0` or higher, because we use new JavaScript features in our code, such as optional chaining.
 
 ## 如何参与贡献
 

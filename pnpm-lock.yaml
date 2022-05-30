@@ -4,7 +4,7 @@ specifiers:
   '@types/markdown-it': ^12.2.3
   '@types/node': ^16.9.1
   '@vue/repl': ^1.0.0
-  '@vue/theme': ^1.0.1
+  '@vue/theme': git+git@github.com:golang-studio/theme.git
   chalk: ^4.1.2
   dynamics.js: ^1.1.5
   gray-matter: ^4.0.3
@@ -18,7 +18,7 @@ specifiers:
 
 dependencies:
   '@vue/repl': 1.0.0_vue@3.2.36
-  '@vue/theme': 1.0.1_vue@3.2.36
+  '@vue/theme': github.com/golang-studio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f_vue@3.2.36
   dynamics.js: 1.1.5
   gsap: 3.9.1
   vitepress: 0.22.4
@@ -311,23 +311,6 @@ packages:
 
   /@vue/shared/3.2.36:
     resolution: {integrity: sha512-JtB41wXl7Au3+Nl3gD16Cfpj7k/6aCroZ6BbOiCMFCMvrOpkg/qQUXTso2XowaNqBbnkuGHurLAqkLBxNGc1hQ==}
-    dev: false
-
-  /@vue/theme/1.0.1_vue@3.2.36:
-    resolution: {integrity: sha512-yVynG5l1BNAh8eQCGg19cyt5TMcbqQCAErT/XZUJOjVT4FjGK1ofGc3wUnDan1JSRF2WNBLOLZHwjc5dJy1Haw==}
-    dependencies:
-      '@docsearch/css': 3.1.0
-      '@docsearch/js': 3.1.0
-      '@vueuse/core': 7.4.0_vue@3.2.36
-      body-scroll-lock: 3.1.5
-      normalize.css: 8.0.1
-      shiki: 0.9.15
-    transitivePeerDependencies:
-      - '@types/react'
-      - '@vue/composition-api'
-      - react
-      - react-dom
-      - vue
     dev: false
 
   /@vueuse/core/7.4.0_vue@3.2.36:
@@ -1255,3 +1238,23 @@ packages:
       remark-parse: 7.0.2
       unified: 8.4.2
     dev: true
+
+  github.com/golang-studio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f_vue@3.2.36:
+    resolution: {commit: 0f82dacf43c5cba5a768f8127f0c9fc01848e81f, repo: git+ssh://git@github.com/golang-studio/theme.git, type: git}
+    id: github.com/golang-studio/theme/0f82dacf43c5cba5a768f8127f0c9fc01848e81f
+    name: '@vue/theme'
+    version: 1.0.1
+    dependencies:
+      '@docsearch/css': 3.1.0
+      '@docsearch/js': 3.1.0
+      '@vueuse/core': 7.4.0_vue@3.2.36
+      body-scroll-lock: 3.1.5
+      normalize.css: 8.0.1
+      shiki: 0.9.15
+    transitivePeerDependencies:
+      - '@types/react'
+      - '@vue/composition-api'
+      - react
+      - react-dom
+      - vue
+    dev: false

@@ -16,7 +16,7 @@
     "@vue/theme": "git+git@github.com:golang-studio/theme.git",
     "dynamics.js": "^1.1.5",
     "gsap": "^3.9.0",
-    "vitepress": "^0.22.3",
+    "vitepress": "^0.22.4",
     "vue": "^3.2.33"
   },
   "devDependencies": {
@@ -26,9 +26,8 @@
     "gray-matter": "^4.0.3",
     "lodash": "^4.17.21",
     "open": "^8.4.0",
-    "patch-vue-directive-ssr": "^0.0.1",
     "simple-git": "^2.48.0",
-    "zhlint": "^0.5.3"
+    "zhlint": "^0.6.0"
   },
   "pnpm": {
     "peerDependencyRules": {

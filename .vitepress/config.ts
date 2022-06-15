@@ -15,7 +15,7 @@ const nav = [
       { text: '教程', link: '/tutorial/' },
       { text: '范例', link: '/examples/' },
       { text: '快速开始', link: '/guide/quick-start' },
-      { text: '风格指南', link: '/style-guide/' },
+      { text: '风格指南', link: '/style-guide/' }
       // {
       //   text: '从 Vue 2 迁移',
       //   link: 'https://v3-migration.vuejs.org/'
@@ -654,6 +654,16 @@ export default defineConfigWithTheme<ThemeConfig>({
         content: 'https://vuejs.org/images/logo.png'
       }
     ],
+    // see https://vuepress.vuejs.org/plugin/official/plugin-pwa.html
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: '/favicon.ico',
+        type: 'image/x-icon'
+      }
+    ],
     [
       'link',
       {
@@ -726,7 +736,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     // outline: "deep",
     config(md) {
       md.use(headerPlugin)
-    },
+    }
 
 
     // lineNumbers: true

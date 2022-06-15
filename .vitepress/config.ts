@@ -638,7 +638,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   extends: baseConfig,
 
   lang: 'zh-CN',
-  title: 'Vue.js',
+  title: 'Go',
   description: 'Vue.js - 渐进式的 JavaScript 框架',
   srcDir: 'src',
   srcExclude: ['tutorial/**/description.md'],

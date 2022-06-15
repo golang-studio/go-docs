@@ -1,6 +1,6 @@
 ---
 page: true
-title: Vue.js - 渐进式 JavaScript 框架
+title: Go 语言入门到精通
 ---
 
 <script setup>

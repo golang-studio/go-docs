@@ -18,8 +18,8 @@ export default Object.assign({}, VPTheme, {
     return h(VPTheme.Layout, null, {
       // banner: () => h(Banner),
       'sidebar-top': () => h(PreferenceSwitch),
-      'aside-mid': () => h(SponsorsAside),
-      'aside-bottom': () => h(VueJobs)
+      // 'ytaside-mid': () => h(SponsorsAside),
+      // 'aside-bottom': () => h(VueJobs)
     })
   },
   enhanceApp({ app }: { app: App }) {

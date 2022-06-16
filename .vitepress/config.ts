@@ -703,10 +703,10 @@ export default defineConfigWithTheme<ThemeConfig>({
       }
     },
 
-    carbonAds: {
-      code: 'CEBDT27Y',
-      placement: 'vuejsorg'
-    },
+    // carbonAds: {
+    //   code: 'CEBDT27Y',
+    //   placement: 'vuejsorg'
+    // },
 
     socialLinks: [
       // { icon: 'languages', link: '/translations/' },

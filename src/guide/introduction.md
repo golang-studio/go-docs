@@ -49,6 +49,9 @@ Go 语言的创始人都是 IT 界的超级大神，而且创始时都就职于 
 - Go 语言项目总负责人
 - Unix 的团队成员
 - UTF-8 编码创始人
+- 参与了[贝尔实验室](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)和[Inferno](https://en.wikipedia.org/wiki/Inferno_(operating_system))操作系统的 Plan 9 的创建，以及[Limbo 编程语言](https://en.wikipedia.org/wiki/Limbo_programming_language)。
+- 1980年奥运会射箭的银牌得主
+- 业余天文学家
 
 ### Robert Griesemer（罗伯特·格瑞史莫）
 

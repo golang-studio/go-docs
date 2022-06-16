@@ -7,7 +7,7 @@ import VueMasteryModal from './VueMasteryModal.vue';
 <template>
   <section id="hero">
     <h1 class="tagline">
-      <span class="accent">Let's Go</span>
+      <span class="accent" style="font-size: 26px;word-spacing: 6px;">LESS IS MORE</span>
       <br />Go 语言入门到精通
     </h1>
     <p class="description">

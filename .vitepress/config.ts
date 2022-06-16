@@ -716,7 +716,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     editLink: {
-      repo: 'vuejs-translations/docs-zh-cn',
+      repo: 'golang-studio/go-docs',
       text: '在 GitHub 上编辑此页'
     },
 

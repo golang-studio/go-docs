@@ -215,6 +215,10 @@ export const sidebar = {
         {
           text: '快速开始',
           link: '/guide/quick-start'
+        },
+        {
+          text: '著名 Go 项目',
+          link: '/guide/project'
         }
       ]
     },
